@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First page of the app</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to the Home Page</h1>
+    <a href="{{ url_for('tasks') }}" class="button-link">Go to Task Manager</a>
+    <a href="your_link_url_2" class="button-link">Button 2</a>
+    <a href="your_link_url_3" class="button-link">Button 3</a>
+
+    <br></br>
+    <h2>User flow diagram</h2>
+    <img src="{{ url_for('static', filename='images/userflow.png') }}" alt="User Flow image">
+</body>
+</html>
+
+
+
+
+
+
